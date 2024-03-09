@@ -1,0 +1,909 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Mr.Arkopravo</title>
+    <!--Bootstrap CDN Link-->
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC"
+      crossorigin="anonymous"
+    />
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+      crossorigin="anonymous"
+    ></script>
+    <!-- CSS Files -->
+    <link rel="stylesheet" href="css/style.css" />
+    <link rel="stylesheet" href="css/skins/color-1.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css"
+    />
+    <!-- due to this imported pre define library from cdn.js we are able to use those icons, symbols without creating them -->
+    <!-- Style Switcher -->
+    <!-- Different colour css which will be triggered with js -->
+    <link
+      rel="stylesheet"
+      href="css/skins/color-1.css"
+      class="alternate-style"
+      title="color-1"
+      disabled
+    />
+    <link
+      rel="stylesheet"
+      href="css/skins/color-2.css"
+      class="alternate-style"
+      title="color-2"
+      disabled
+    />
+    <link
+      rel="stylesheet"
+      href="css/skins/color-3.css"
+      class="alternate-style"
+      title="color-3"
+      disabled
+    />
+    <link
+      rel="stylesheet"
+      href="css/skins/color-4.css"
+      class="alternate-style"
+      title="color-4"
+      disabled
+    />
+    <link
+      rel="stylesheet"
+      href="css/skins/color-5.css"
+      class="alternate-style"
+      title="color-5"
+      disabled
+    />
+    <link rel="stylesheet" href="css/style-switcher.css" />
+    <!-- Fav Icon -->
+    <link rel="icon" href="favicon-16x16.png" />
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Pixelify+Sans:wght@400;500&family=Silkscreen&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <!-- Main Container Start -->
+    <div class="main-container">
+      <!-- Aside Start -->
+      <div class="aside">
+        <div class="logo">
+          <a href="#"><span>H</span>ello</a>
+        </div>
+        <div class="nav-toggler">
+          <span></span>
+        </div>
+        <ul class="nav">
+          <!-- using the section ids to link with the nav bar -->
+          <li>
+            <a href="#home" class="active"><i class="fa fa-home"></i>Home</a>
+          </li>
+          <li>
+            <a href="#about"><i class="fa fa-user"></i>About</a>
+          </li>
+          <li>
+            <a href="#service"><i class="fa fa-list"></i>Skills</a>
+          </li>
+          <li>
+            <a href="#portfolio"><i class="fa fa-briefcase"></i>Projects</a>
+          </li>
+          <li>
+            <a href="#contact"><i class="fa fa-comments"></i>Contact</a>
+          </li>
+          <li>
+            <a href="#achievements"
+              ><i class="fa-solid fa-trophy"></i>Achievements</a
+            >
+          </li>
+        </ul>
+      </div>
+      <!-- Aside End -->
+
+      <!-- Main Content Start -->
+      <div class="main-content">
+        <!-- Home Section Start -->
+        <section class="home active section" id="home">
+          <div class="container home-container">
+            <div class="row">
+              <div class="home-info padd-15">
+                <h3 class="hello">
+                  Hello, my name is <span class="name">Arkopravo Ghosh</span>
+                </h3>
+                <h3 class="my-profession">
+                  I'm a/an <span class="typing">Web developer</span>
+                </h3>
+                <p>
+                  I'm a Front-End Web Developer with extensive experience in
+                  blending the art of design with programming skills to deliver
+                  an immersive and engaging user experience through efficient
+                  website development. My expertise is to create, design and
+                  develop websites, and many more...
+                </p>
+              </div>
+              <div class="home-img padd-15">
+                <img src="images/Profile.jpg" alt="" />
+              </div>
+              <div class="footer">
+                <span>&copy; Arkopravo || 2024.</span>
+              </div>
+              <!-- &copy; will print the copyright symbol in the page -->
+            </div>
+          </div>
+        </section>
+        <!-- Home Section End -->
+
+        <!-- About Section Start -->
+        <section class="about section" id="about">
+          <div class="container">
+            <div class="row">
+              <div class="section-title padd-15">
+                <h2>About Me</h2>
+              </div>
+            </div>
+            <div class="row">
+              <div class="about-content padd-15">
+                <div class="row">
+                  <div class="about-text padd-15">
+                    <h3>Hey! Have you met <span>Arko ?</span></h3>
+                    <h3>Hi I'm <span>ARKOPRAVO GHOSH</span></h3>
+                    <p>
+                      A self-taught C++ programmer and front-end developer, I am
+                      deeply committed to addressing intricate challenges. My
+                      dedication centers around crafting efficient and robust
+                      code tailored for scalable applications. Hailing from
+                      Kolkata, I prioritize daily enhancements to both my coding
+                      and design skills, reflecting a steadfast commitment to
+                      professional growth. I firmly believe in acquiring
+                      knowledge through meaningful experiences, underlining a
+                      disciplined and professional approach to my work.
+                    </p>
+                  </div>
+                </div>
+                <div class="row">
+                  <div class="personal-info padd-15">
+                    <div class="row">
+                      <div class="info-item padd-15">
+                        <p>Birthday : <span>August 14, 1999</span></p>
+                      </div>
+                      <div class="info-item padd-15">
+                        <p>
+                          Linkedin :
+                          <span class="connect_button"
+                            ><a
+                              class="connect_button_btn"
+                              href="https://www.linkedin.com/in/arkopravo-ghosh/"
+                              target="_blank"
+                              >Connect</a
+                            ></span
+                          >
+                        </p>
+                      </div>
+                      <div class="info-item padd-15">
+                        <p>E-Mail : <span>arkopravoghosh789@gmail.com</span></p>
+                      </div>
+                      <div class="info-item padd-15">
+                        <p>Phone : <span>(+91) 8116382354</span></p>
+                      </div>
+                      <div class="info-item padd-15">
+                        <p>City : <span>Kolkata</span></p>
+                      </div>
+                      <div class="info-item padd-15">
+                        <p>Work : <span>FRESHER and ACTIVELY LOOKING</span></p>
+                      </div>
+                    </div>
+                    <div class="row">
+                      <div class="buttons padd-15">
+                        <a href="cv.pdf" target="_blank" class="btn"
+                          >Download Resume</a
+                        >
+                        <a
+                          href="#contact"
+                          data-section-index="1"
+                          class="btn hire-me"
+                          >Hire-Me</a
+                        >
+                        <a
+                          href="https://github.com/Arkopravo"
+                          target="_blank"
+                          class="btn hire-me"
+                          >GitHub</a
+                        >
+                      </div>
+                    </div>
+                  </div>
+
+                  <!-- <div class="row"> -->
+                  <div class="skills padd-15">
+                    <div class="row">
+                      <div class="skill-item padd-15">
+                        <h5>DATA STRUCTURE AND ALGORITHMS</h5>
+                        <div class="progress">
+                          <div class="progress-in" style="width: 90%"></div>
+                          <div class="skill-percent">90%</div>
+                        </div>
+                      </div>
+                      <div class="skill-item padd-15">
+                        <h5>FRONT END DEVELOPMENT</h5>
+                        <div class="progress">
+                          <div class="progress-in" style="width: 85%"></div>
+                          <div class="skill-percent">85%</div>
+                        </div>
+                      </div>
+                      <div class="skill-item padd-15">
+                        <h5>CORE</h5>
+                        <div class="progress">
+                          <div class="progress-in" style="width: 80%"></div>
+                          <div class="skill-percent">80%</div>
+                        </div>
+                      </div>
+                      <div class="skill-item padd-15">
+                        <h5>LOW LEVEL DESIGN && HIGH LEVEL DESIGN</h5>
+                        <div class="progress">
+                          <div class="progress-in" style="width: 70%"></div>
+                          <div class="skill-percent">70%</div>
+                        </div>
+                      </div>
+
+                      <div class="skill-item padd-15">
+                        <h5>SQL</h5>
+                        <div class="progress">
+                          <div class="progress-in" style="width: 70%"></div>
+                          <div class="skill-percent">70%</div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="row">
+                  <div class="education padd-15">
+                    <h3 class="title">Education :</h3>
+                    <div class="row">
+                      <div class="timeline-box padd-15">
+                        <div class="timeline shadow-dark">
+                          <!-- timeline items -->
+                          <div class="timeline-item">
+                            <div class="circle-dot"></div>
+                            <h3 class="timeline-date">
+                              <i class="fa fa-calendar"></i>2020-2023
+                            </h3>
+                            <h4 class="timeline-title">
+                              Bachelor of Technology in ME.
+                            </h4>
+                            <p class="timeline-text">
+                              I hold a Bachelor's of Technology degree in
+                              Mechanical Engineering, having achieved an
+                              impressive average CGPA of 8.72. As a recent
+                              graduate entering the professional arena, I
+                              acknowledge that my practical knowledge is in its
+                              early stages, yet I am driven by a keen eagerness
+                              to acquire new skills and insights. I am poised to
+                              embark on a journey of continuous learning, aiming
+                              to contribute meaningfully to my field and further
+                              enhance my expertise.
+                            </p>
+                          </div>
+                          <!-- timeline items -->
+                          <div class="timeline-item">
+                            <div class="circle-dot"></div>
+                            <h3 class="timeline-date">
+                              <i class="fa fa-calendar"></i>2017-2020
+                            </h3>
+                            <h4 class="timeline-title">Diploma in ME</h4>
+                            <p class="timeline-text">
+                              Possessing a Diploma degree in Mechanical
+                              Engineering, I have distinguished myself with an
+                              impressive average CGPA of 8.5. As a recent
+                              graduate venturing into the professional domain, I
+                              am cognizant of the nascent stage of my practical
+                              knowledge. However, my motivation is fueled by a
+                              steadfast eagerness to cultivate new skills and
+                              insights. Positioned at the threshold of my
+                              career, I am committed to a trajectory of
+                              continuous learning, with the aim of making
+                              substantive contributions to my field and
+                              elevating my expertise to new heights.
+                            </p>
+                          </div>
+                          <!--timeline items-->
+                          <div class="timeline-item">
+                            <div class="circle-dot"></div>
+                            <h3 class="timeline-date">
+                              <i class="fa fa-calendar"></i>2004-2017
+                            </h3>
+                            <h4 class="timeline-title">School</h4>
+                            <p class="timeline-text">
+                              Coming to my educational qualification, I have
+                              completed my schooling from St Stephens School.
+                            </p>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="experience padd-15">
+                    <h3 class="title">Experience :</h3>
+                    <div class="row">
+                      <div class="timeline-box padd-15">
+                        <div class="timeline shadow-dark">
+                          <!--timeline items-->
+                          <div class="timeline-item">
+                            <div class="circle-dot"></div>
+                            <h3 class="timeline-date">
+                              <i class="fa fa-calendar"></i>2023 - present
+                            </h3>
+                            <h4 class="timeline-title">Organization</h4>
+                            <p class="timeline-text">
+                              <b>Fresher</b>
+                              <br />
+                              Highly skilled Front-End Developer with a strong
+                              specialization in DSA. Equipped with extensive
+                              experience in designing, developing, and
+                              implementing robust and scalable web applications.
+                            </p>
+                          </div>
+                          <!--timeline items-->
+                          <div class="timeline-item">
+                            <div class="circle-dot"></div>
+                            <h3 class="timeline-date">
+                              <i class="fa fa-calendar"></i>2023
+                            </h3>
+                            <h4 class="timeline-title">
+                              Internships/Trainings
+                            </h4>
+                            <p class="timeline-text">
+                              1. Internpe <b>WEB DEVELOPMENT</b>.
+                              <br />
+                              <i>Web Developer Intern</i>
+                              <br/>
+                              <i>Nov 2023 - Dec 2023.</i>
+                              <br />
+                              2. LETS GROW MORE <b>WEB DEVELOPMENT</b>.
+                              <br />
+                              <i>Web Developer Intern</i>
+                              <br/>
+                              <i>Sep 2023 - Oct 2023.</i>
+                            </p>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </section>
+        <!-- About Section End -->
+
+        <!--Skills Section Start-->
+        <section class="service section " id="service">
+            <div class="container">
+                <div class="row">
+                    <div class="section-title padd-15">
+                        <h2>Skills in My Arsenal</h2>
+                    </div>
+                </div>
+                <div class="row">
+                    <!--Skills item start-->
+                    <div class="service-item padd-15">
+                        <div class="service-item-inner">
+                            <div class="icon">
+                                <i class="fa fa-code"></i>
+                            </div>
+                            <h4>Front end development</h4>
+                            <p>A self-taught and independent Front End Web Developer.</p>
+                        </div>
+                    </div>
+
+                    <div class="service-item padd-15">
+                        <div class="service-item-inner">
+                            <div class="icon">
+                                <i class="fa fa-laptop-code"></i>
+                            </div>
+                            <h4>C++</h4>
+                            <p>A seasoned C++ programmer with hands on project</p>
+                        </div>
+                    </div>
+
+                    <div class="service-item padd-15">
+                        <div class="service-item-inner">
+                            <div class="icon">
+                                <i class="fa fa-laptop-code"></i>
+                            </div>
+                            <h4>DSA</h4>
+                            <p>Also, got the knowledge and good hands-on Problem solving.</p>
+                        </div>
+                    </div>
+
+                    <div class="service-item padd-15">
+                        <div class="service-item-inner">
+                            <div class="icon">
+                                <i class="fa fa-laptop-code"></i>
+                            </div>
+                            <h4>SQL</h4>
+                            <p> Learning and implementing in DataBases using MySQL</p>
+                        </div>
+                    </div>
+
+                    <div class="service-item padd-15">
+                        <div class="service-item-inner">
+                            <div class="icon">
+                                <i class="fa fa-laptop"></i>
+                            </div>
+                            <h4>REACT</h4>
+                            <p>Familiar with the advanced concepts of React .</p>
+                        </div>
+                    </div>
+
+                    <div class="service-item padd-15">
+                        <div class="service-item-inner">
+                            <div class="icon">
+                                <i class="fa fa-code"></i>
+                            </div>
+                            <h4>Tailwind CSS</h4>
+                            <p>Also, know how to use CSS to make a good UI.</p>
+                        </div>
+                    </div>
+                    <!--Skills item end-->
+                </div>
+            </div>
+        </section>
+        <!--Skills Section End-->
+
+        <!-- Project Section Start -->
+        <section class="portfolio section" id="portfolio">
+          <div class="container">
+            <div class="row">
+              <div class="section-title padd-15">
+                <h2>Projects</h2>
+              </div>
+            </div>
+            <div class="row">
+              <div class="portfolio-heading padd-15">
+                <h2>Some of My Projects :</h2>
+              </div>
+            </div>
+            <div class="row">
+              <!-- Projects item Starts -->
+
+              <div class="portfolio-item padd-15">
+                <div class="portfolio-item-inner shadow-dark">
+                  <div class="portfolio-img">
+                    <a
+                      href="https://netflix-gpt-pi-red.vercel.app/"
+                      target="_blank"
+                      ><img src="images/Projects/netflix gpt screenshot.png" alt=""
+                    /></a>
+                  </div>
+                </div>
+              </div>
+
+              <div class="portfolio-item padd-15">
+                <div class="portfolio-item-inner shadow-dark">
+                  <div class="portfolio-img">
+                    <a
+                      href="https://apple-clone-one-psi.vercel.app/"
+                      target="_blank"
+                      ><img src="images/Projects/apple .png" alt=""
+                    /></a>
+                  </div>
+                </div>
+              </div>
+
+              <div class="portfolio-item padd-15">
+                <div class="portfolio-item-inner shadow-dark">
+                  <div class="portfolio-img">
+                    <a
+                      href="https://sudoku-javascript.vercel.app/"
+                      target="_blank"
+                      ><img src="images\Projects\sudoku.jpg" alt=""
+                    /></a>
+                  </div>
+                </div>
+              </div>
+
+              <div class="portfolio-item padd-15">
+                <div class="portfolio-item-inner shadow-dark">
+                  <div class="portfolio-img">
+                    <a
+                      href="https://weather-app-teal-delta-24.vercel.app/"
+                      target="_blank"
+                    >
+                      <img src="images/Projects/WEATHER.png" alt="" />
+                    </a>
+                  </div>
+                </div>
+              </div>
+
+              <div class="portfolio-item padd-15">
+                <div class="portfolio-item-inner shadow-dark">
+                  <div class="portfolio-img">
+                    <a
+                      href="https://arkopravo.github.io/Password-Generator/"
+                      target="_blank"
+                    >
+                      <img src="images/Projects/Password generator.png" alt=""
+                    /></a>
+                  </div>
+                </div>
+              </div>
+
+              <div class="portfolio-item padd-15">
+                <div class="portfolio-item-inner shadow-dark">
+                  <div class="portfolio-img">
+                    <a
+                      href="https://todo-react-neon.vercel.app/"
+                      target="_blank"
+                    >
+                      <img src="images/Projects/REACT_TO_DO.png" alt=""
+                    /></a>
+                  </div>
+                </div>
+              </div>
+
+              <div class="write padd-15">
+                <div class="hover-text">
+                  And many more...
+                  <span class="tooltip-text bottom">
+                    <div class="buttons padd-15">
+                      <a
+                        href="https://github.com/Arkopravo?tab=repositories"
+                        target="_blank"
+                        class="btn hire-me"
+                        >GitHub</a
+                      >
+                    </div>
+                  </span>
+                </div>
+              </div>
+              <!-- Projects item Ends -->
+            </div>
+          </div>
+        </section>
+        <!-- Project Section end -->
+        <!-- Contact Section Start -->
+        <section class="contact section" id="contact">
+          <div class="container">
+            <div class="row">
+              <div class="section-title padd-15">
+                <h2>Contact Me</h2>
+              </div>
+            </div>
+            <h3 class="contact-title padd-15">" Want to know more ? "</h3>
+            <h4 class="contact-sub-title padd-15">" Connect With Me. "</h4>
+            <div class="row">
+              <!-- Contact Info item start -->
+              <div class="contact-info-item padd-15">
+                <div class="icon">
+                  <i class="fa fa-phone"></i>
+                </div>
+                <h4>Call Me On</h4>
+                <p>(+91) 8116382354</p>
+              </div>
+              <div class="contact-info-item padd-15">
+                <div class="icon">
+                  <i class="fa fa-map-marker-alt"></i>
+                </div>
+                <h4>Home</h4>
+                <p>Kolkata</p>
+              </div>
+              <div class="contact-info-item padd-15">
+                <div class="icon">
+                  <i class="fa fa-envelope"></i>
+                </div>
+                <h4>E-Mail</h4>
+                <p>arkopravoghosh789@gmail.com</p>
+              </div>
+              <div class="contact-info-item padd-15">
+                <div class="icon">
+                  <i class="fa fa-globe-asia"></i>
+                </div>
+                <h4>LinkedIn</h4>
+                <p>
+                  <a
+                    class="connect_button_btn"
+                    href="https://www.linkedin.com/in/arkopravo-ghosh/"
+                    target="_blank"
+                    ><u>Connect</u></a
+                  >
+                </p>
+              </div>
+              <!-- Contact Info item end -->
+            </div>
+            <h3 class="contact-title padd-15">SEND ME AN E-MAIL.</h3>
+            <h4 class="contact-sub-title padd-15">
+              WILL DEFINITELY GET BACK TO YOU
+            </h4>
+            <!-- Contact Form -->
+            <div class="row">
+              <div class="contact-form padd-15">
+                <div class="row">
+                  <div class="form-item col-6 padd-15">
+                    <div class="form-group">
+                      <input
+                        type="text"
+                        class="form-control"
+                        id="nameofSender"
+                        placeholder="Name"
+                      />
+                    </div>
+                  </div>
+                  <div class="form-item col-6 padd-15">
+                    <div class="form-group">
+                      <input
+                        type="email"
+                        class="form-control"
+                        readonly
+                        id="emailID"
+                        value="arkopravoghosh789@gmail.com"
+                      />
+                    </div>
+                  </div>
+                </div>
+                <div class="row">
+                  <div class="form-item col-12 padd-15">
+                    <div class="form-group">
+                      <input
+                        type="text"
+                        class="form-control"
+                        id="subjectInput"
+                        placeholder="Subject"
+                      />
+                    </div>
+                  </div>
+                </div>
+                <div class="row">
+                  <div class="form-item col-12 padd-15">
+                    <div class="form-group">
+                      <textarea
+                        name=""
+                        class="form-control"
+                        id="bodyInput"
+                        placeholder="Messages"
+                      ></textarea>
+                    </div>
+                  </div>
+                </div>
+                <div class="row">
+                  <div class="form-item col-12 padd-15">
+                    <button id="mailsubmitbtn" onclick="openGmailCompose()">
+                      <div class="svg-wrapper-1">
+                        <div class="svg-wrapper">
+                          <svg
+                            height="24"
+                            width="24"
+                            viewBox="0 0 24 24"
+                            xmlns="http://www.w3.org/2000/svg"
+                          >
+                            <path d="M0 0h24v24H0z" fill="none"></path>
+                            <path
+                              d="M1.946 9.315c-.522-.174-.527-.455.01-.634l19.087-6.362c.529-.176.832.12.684.638l-5.454 19.086c-.15.529-.455.547-.679.045L12 14l6-8-8 6-8.054-2.685z"
+                              fill="currentColor"
+                            ></path>
+                          </svg>
+                        </div>
+                      </div>
+                      <span>Send</span>
+                    </button>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <!-- <div class="social">
+              <ul class="social-network">
+                <li>
+                  <a
+                    href="https://mobile.twitter.com/im_aritra10"
+                    target="blank"
+                    ><img
+                      src="images/Social-Media/2-27646_twitter-logo-png-transparent-background-logo-twitter-png.png"
+                      width="29"
+                  /></a>
+                </li>
+                <li>
+                  <a
+                    href="https://www.facebook.com/ARITRA.paradox"
+                    target="blank"
+                    ><img
+                      src="images/Social-Media/facebook-logo-circle-transparent.png"
+                      width="29"
+                  /></a>
+                </li>
+                <li>
+                  <a
+                    href="https://www.instagram.com/the_chemical_cocktail"
+                    target="blank"
+                    ><img
+                      src="images/Social-Media/instagram-logo-gradient-transparent.png"
+                      width="29"
+                  /></a>
+                </li>
+              </ul>
+            </div> -->
+          </div>
+        </section>
+        <!-- Contact Section End -->
+
+        <section class="achievements section" id="achievements">
+          <div class="container">
+            <!-- <div class="achievements_header">
+                    <div class="button-container">
+                        <a href="https://leetcode.com/arkopravoghosh789/" target="_blank" class="glowing-link">
+                        <button class='glowing-btn'><span class='glowing-txt'>L<span class='faulty-letter'>E</span>ETCODE</span></button>
+                        </a>
+
+                        <a href="https://www.codingninjas.com/studio/profile/arkopravo" target=" _blank"
+                            class="glowing-link">
+                            <button class='glowing-btn'><span class='glowing-txt'>C<span
+                                        class='faulty-letter'>O</span>DING NINJAS</span></button>
+                        </a>
+                    </div>
+                </div> -->
+
+
+            <div class="button-container">
+                <a href="https://www.codingninjas.com/studio/profile/arkopravo" target=" _blank">
+                    <button class="button-85" role="button">Coding Ninjas</button>
+                </a>
+                <a href="https://leetcode.com/arkopravoghosh789/" target="_blank">
+                    <button class="button-85" role="button">LeetCode</button>
+                </a>
+            </div>
+            
+
+            <div class="image-container">
+              <!-- Add your image sources here -->
+              <a
+                href="images/certificate/CSS_PDF_pages-to-jpg-0001.jpg"
+                download="CSS_CERTIFICATE.png"
+              >
+                <img
+                  src="images/certificate/CSS_PDF_pages-to-jpg-0001.jpg"
+                  alt="Image 1"
+                />
+              </a>
+              <a
+                href="images/certificate/HTML_CERTIFICATE_page-0001.jpg"
+                download="HTML_CERTIFICATE_page-0001"
+              >
+                <img
+                  src="images/certificate/HTML_CERTIFICATE_page-0001.jpg"
+                  alt="Image 2"
+                />
+              </a>
+              <a
+                href="images/certificate/ARKOPROVO CERTIFICATE(C++)_page-0001.jpg"
+                download="c++"
+              >
+                <img
+                  src="images/certificate/ARKOPROVO CERTIFICATE(C++)_page-0001.jpg"
+                  alt="Image 3"
+                />
+              </a>
+              <a
+                href="images/certificate/ARKOPROVO MARKSHEET(C++)_page-0001.jpg"
+                download="c++"
+              >
+                <img
+                  src="images/certificate/ARKOPROVO MARKSHEET(C++)_page-0001.jpg"
+                  alt="Image 4"
+                />
+              </a>
+              <a
+                href="images/certificate/IIT BOMBAY C++_page-0001.jpg"
+                download="iit"
+              >
+                <img
+                  src="images/certificate/IIT BOMBAY C++_page-0001.jpg"
+                  alt="Image 5"
+                />
+              </a>
+              <a
+                href="images/certificate/LGM - Web_page-0001.jpg"
+                download="lgm"
+              >
+                <img
+                  src="images/certificate/LGM - Web_page-0001.jpg"
+                  alt="Image 6"
+                />
+              </a>
+              <a href="images/certificate/OOPS_page-0001.jpg" download="oops">
+                <img
+                  src="images/certificate/OOPS_page-0001.jpg"
+                  alt="Image 7"
+                />
+              </a>
+              <a
+                href="images/certificate/POINTERS - CODING NINJAS_page-0001.jpg"
+                download="pointers"
+              >
+                <img
+                  src="images/certificate/POINTERS - CODING NINJAS_page-0001.jpg"
+                  alt="Image 8"
+                />
+              </a>
+              <a
+                href="images/certificate/puzzel_ certificate_page-0001.jpg"
+                download="puzzle"
+              >
+                <img
+                  src="images/certificate/puzzel_ certificate_page-0001.jpg"
+                  alt="Image 9"
+                />
+              </a>
+              <a
+                href="images/certificate/udemy html css javascript_page-0001.jpg"
+                download="udemy"
+              >
+                <img
+                  src="images/certificate/udemy html css javascript_page-0001.jpg"
+                  alt="Image 10"
+                />
+              </a>
+              <a
+                href="images/certificate/water treatment plant certificate_page-0001.jpg"
+                download="water_treatment"
+              >
+                <img
+                  src="images/certificate/water treatment plant certificate_page-0001.jpg"
+                  alt="Image 11"
+                />
+              </a>
+            </div>
+
+            <footer>
+              <p></p>
+            </footer>
+          </div>
+        </section>
+      </div>
+      <!--Main Content Start-->
+    </div>
+    <!--Main Container End-->
+    <!--Style Switcher Start-->
+    <div class="style-switcher">
+      <div class="style-switcher-toggler s-icon">
+        <i class="fas fa-cog fa-spin"></i>
+      </div>
+      <div class="day-night s-icon">
+        <i class="fas"></i>
+      </div>
+      <h4>Theme Colours</h4>
+      <div class="colors">
+        <!--when click event is used then with respective classes respective colour css will be triggered-->
+        <span class="color-1" onclick="setActiveStyle('color-1')"></span>
+        <span class="color-2" onclick="setActiveStyle('color-2')"></span>
+        <span class="color-3" onclick="setActiveStyle('color-3')"></span>
+        <span class="color-4" onclick="setActiveStyle('color-4')"></span>
+        <span class="color-5" onclick="setActiveStyle('color-5')"></span>
+      </div>
+    </div>
+    <!--Style Switcher End-->
+
+    <!--JS Files-->
+    <!--For Typing Animation-->
+    <script
+      src="https://cdnjs.cloudflare.com/ajax/libs/typed.js/2.0.12/typed.min.js"
+      referrerpolicy="no-referrer"
+    ></script>
+    <!--Main Js File-->
+    <script src="js/script.js"></script>
+    <!--Js for Style Switcher-->
+    <script src="js/style-switcher.js"></script>
+  </body>
+</html>

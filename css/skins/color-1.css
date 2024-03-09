@@ -1,0 +1,7 @@
+:root
+{
+    /*here the root element is the background color set by style-switcher css in every case*/
+    --skin-color:#fc766aff;
+
+}
+/*The :root CSS pseudo-class matches the root element of a tree representing the document. In HTML, :root represents the <html> element and is identical to the selector html, except that its specificity is higher.*/
